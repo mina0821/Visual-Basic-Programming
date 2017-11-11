@@ -1,0 +1,26 @@
+Private Sub CmdVowel_Click()
+'0.  Create the variable to
+'-store the input string
+'-count the number of vowels
+'-looping variable
+'-variable to store a single character from inString
+Dim i As Single 'Looping variable
+Dim countVowels As Single 'number of vowels
+Dim inString As String 'input string
+Dim currCh As String 'the current character in inString
+'1.  Store the input string from the textbox (TxtWord)
+'    into the variable inString.
+
+'2. Look for vowels in inString
+'check each character and see if it is a vowel
+'   use LEN to find out how many characters are in inString
+'   use mid to extract each character one by one and store in currCh
+'3. if a vowel is found, count it
+'4. Repeat steps 2 and 3 for each character in inString
+
+'5. output # of vowels to the label
+MsgBox countVowels & " vowels in the input"
+
+
+
+End Sub
